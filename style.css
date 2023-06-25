@@ -7,6 +7,11 @@
   --dark-blue: hsl(218, 44%, 22%);
 }
 
+
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   height: 100%;
@@ -41,7 +46,7 @@ p {
   display: flex;
   flex-direction: column;
   margin: auto;
-  max-width: calc(375*.74px);
+  max-width: calc(375*.85px);
   padding: 1rem;
 }
 
